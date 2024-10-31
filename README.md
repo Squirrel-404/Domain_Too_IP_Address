@@ -6,17 +6,17 @@ This tool takes a domain name and gathers its ip address.
 ```sh
 git clone https://github.com/Squirrel-404/Domain_Too_IP_Address.git
 ```
-3. Make the script executable by running:
+2. Make the script executable by running:
    ```sh
    chmod +x gather_addresses.sh
    ```
-4. Create a file with a list of domain names (one per line), and name it: `domains.txt`:
+3. Create a file with a list of domain names (one per line), and name it: `domains.txt`:
    ```
    example.com
    google.com
    github.com
    ```
-5. Run the script and pass the domain list file, the output text file, and the output XML file as arguments:
+4. Run the script and pass the domain list file, the output text file, and the output XML file as arguments:
    ```sh
    ./gather_addresses.sh domains.txt output.txt output.xml
    ```
